@@ -1,0 +1,6 @@
+﻿  Publisher.cpp
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Publisher\Publisher.cpp(15,8): warning C4101: 'topic': unreferenced local variable
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(98): warning C4715: 'Dequeue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(109): warning C4715: 'DequeueMessageQueue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Publisher\Publisher.h(190): warning C4715: 'SelectFunction': not all control paths return a value
+  Publisher.vcxproj -> C:\Users\Super User\Desktop\IKP\IKP_PubSub\Debug\Publisher.exe

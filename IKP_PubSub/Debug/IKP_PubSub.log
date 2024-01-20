@@ -1,0 +1,17 @@
+﻿  Publisher.cpp
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(98): warning C4715: 'Dequeue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(109): warning C4715: 'DequeueMessageQueue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Publisher\Publisher.h(190): warning C4715: 'SelectFunction': not all control paths return a value
+Publisher.obj : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function "unsigned long __stdcall PublisherReceive(void *)" (?PublisherReceive@@YGKPAX@Z)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function _main
+Publisher.obj : error LNK2019: unresolved external symbol __imp__ioctlsocket@12 referenced in function _main
+Publisher.obj : error LNK2019: unresolved external symbol __imp__htons@4 referenced in function _main
+Publisher.obj : error LNK2019: unresolved external symbol __imp__inet_addr@4 referenced in function _main
+Publisher.obj : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function "char * __cdecl ReceiveFunction(unsigned int,char *)" (?ReceiveFunction@@YAPADIPAD@Z)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__select@20 referenced in function "int __cdecl SelectFunction(unsigned int,char)" (?SelectFunction@@YAHID@Z)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__send@16 referenced in function "int __cdecl SendFunction(unsigned int,char *,int)" (?SendFunction@@YAHIPADH@Z)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function _main
+Publisher.obj : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function "bool __cdecl InitializeWindowsSockets(void)" (?InitializeWindowsSockets@@YA_NXZ)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function "int __cdecl SendFunction(unsigned int,char *,int)" (?SendFunction@@YAHIPADH@Z)
+Publisher.obj : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function "bool __cdecl InitializeWindowsSockets(void)" (?InitializeWindowsSockets@@YA_NXZ)
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Debug\Publisher.exe : fatal error LNK1120: 12 unresolved externals

@@ -1,0 +1,7 @@
+﻿  Server.cpp
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\PubSubEngine\Server.cpp(401,7): warning C4101: 'recvbuf': unreferenced local variable
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(98): warning C4715: 'Dequeue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\Common\Queue.h(109): warning C4715: 'DequeueMessageQueue': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\PubSubEngine\PubSub.h(98): warning C4715: 'Connect': not all control paths return a value
+C:\Users\Super User\Desktop\IKP\IKP_PubSub\PubSubEngine\PubSub.h(271): warning C4715: 'SelectFunction': not all control paths return a value
+  PubSubEngine.vcxproj -> C:\Users\Super User\Desktop\IKP\IKP_PubSub\Debug\PubSubEngine.exe
